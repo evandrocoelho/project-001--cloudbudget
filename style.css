@@ -1,0 +1,184 @@
+body {
+    width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.page1 {
+    position: absolute;
+    background-image: url(assets/img/bg--banner.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 782px;
+    left: 0px;
+    top: 0px;
+}
+
+.logoimg {
+    position: absolute;
+    width: 136px;
+    height: 22px;
+    left: 201px;
+    top: 59px;  
+}
+
+.menu {
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 498px;
+    top: 43px;
+    list-style: none;   
+    
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+
+.menu a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    padding-left: 8px;
+}
+
+
+.priceh1 {
+    position: absolute;
+    width: 578px;
+    height: 86px;
+    left: 431px;
+    top: 257px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.pricep {
+    position: absolute;
+    width: 540px;
+    height: 124px;
+    left: 450px;
+    top: 382px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.blocksignup {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 545px;
+    left: 640px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.signup {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 53px;
+    top: 17px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ED4C5C;
+}
+
+.flagus {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1056px;
+    top: 54px;
+}
+
+.languagetxt {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 1099px;
+    top: 50px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.arrowdown {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1122px;
+    top: 58px;
+
+}
+
+.blocklogin {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1172px;
+    top: 33px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.login {
+    position: absolute;
+    width: 43px;
+    height: 17px;
+    padding-left: 30px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
